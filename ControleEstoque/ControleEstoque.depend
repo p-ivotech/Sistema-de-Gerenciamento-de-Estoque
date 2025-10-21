@@ -1,0 +1,109 @@
+# depslib dependency file v1.0
+1744239967 source:c:\users\pedro ivo\desktop\ads\controleestoque\main.cpp
+	<iostream>
+	<vector>
+	<string>
+	<iomanip>
+	<fstream>
+	<map>
+	<locale>
+	<algorithm>
+	<cstdlib>
+	<conio.h>
+	<termios.h>
+	<unistd.h>
+
+1743240763 c:\users\pedro ivo\desktop\ads\new folder\libxlsxwriter-1.2.2\include\xlsxwriter.h
+	"xlsxwriter/workbook.h"
+	"xlsxwriter/worksheet.h"
+	"xlsxwriter/format.h"
+	"xlsxwriter/utility.h"
+
+1743240763 c:\users\pedro ivo\desktop\ads\new folder\libxlsxwriter-1.2.2\include\xlsxwriter\workbook.h
+	<stdint.h>
+	<stdio.h>
+	<errno.h>
+	"worksheet.h"
+	"chartsheet.h"
+	"chart.h"
+	"shared_strings.h"
+	"hash_table.h"
+	"common.h"
+
+1743240763 c:\users\pedro ivo\desktop\ads\new folder\libxlsxwriter-1.2.2\include\xlsxwriter\worksheet.h
+	<stdio.h>
+	<stdlib.h>
+	<stdint.h>
+	"shared_strings.h"
+	"chart.h"
+	"drawing.h"
+	"common.h"
+	"format.h"
+	"styles.h"
+	"utility.h"
+	"relationships.h"
+
+1743240763 c:\users\pedro ivo\desktop\ads\new folder\libxlsxwriter-1.2.2\include\xlsxwriter\shared_strings.h
+	<string.h>
+	<stdint.h>
+	"common.h"
+
+1743240763 c:\users\pedro ivo\desktop\ads\new folder\libxlsxwriter-1.2.2\include\xlsxwriter\common.h
+	<time.h>
+	"third_party/queue.h"
+	"third_party/tree.h"
+	<R.h>
+	<stdarg.h>
+
+1743240763 c:\users\pedro ivo\desktop\ads\new folder\libxlsxwriter-1.2.2\include\xlsxwriter\third_party\queue.h
+
+1743240763 c:\users\pedro ivo\desktop\ads\new folder\libxlsxwriter-1.2.2\include\xlsxwriter\third_party\tree.h
+
+1743240763 c:\users\pedro ivo\desktop\ads\new folder\libxlsxwriter-1.2.2\include\xlsxwriter\chart.h
+	<stdint.h>
+	<string.h>
+	"common.h"
+	"format.h"
+
+1743240763 c:\users\pedro ivo\desktop\ads\new folder\libxlsxwriter-1.2.2\include\xlsxwriter\format.h
+	<stdint.h>
+	<string.h>
+	"hash_table.h"
+	"common.h"
+
+1743240763 c:\users\pedro ivo\desktop\ads\new folder\libxlsxwriter-1.2.2\include\xlsxwriter\hash_table.h
+	"common.h"
+
+1743240763 c:\users\pedro ivo\desktop\ads\new folder\libxlsxwriter-1.2.2\include\xlsxwriter\drawing.h
+	<stdint.h>
+	<string.h>
+	"common.h"
+
+1743240763 c:\users\pedro ivo\desktop\ads\new folder\libxlsxwriter-1.2.2\include\xlsxwriter\styles.h
+	<stdint.h>
+	<ctype.h>
+	"format.h"
+
+1743240763 c:\users\pedro ivo\desktop\ads\new folder\libxlsxwriter-1.2.2\include\xlsxwriter\utility.h
+	<stdint.h>
+	<strings.h>
+	"common.h"
+	"xmlwriter.h"
+
+1743240763 c:\users\pedro ivo\desktop\ads\new folder\libxlsxwriter-1.2.2\include\xlsxwriter\xmlwriter.h
+	<stdio.h>
+	<stdlib.h>
+	<stdint.h>
+	"utility.h"
+
+1743240763 c:\users\pedro ivo\desktop\ads\new folder\libxlsxwriter-1.2.2\include\xlsxwriter\relationships.h
+	<stdint.h>
+	"common.h"
+
+1743240763 c:\users\pedro ivo\desktop\ads\new folder\libxlsxwriter-1.2.2\include\xlsxwriter\chartsheet.h
+	<stdint.h>
+	"common.h"
+	"worksheet.h"
+	"drawing.h"
+	"utility.h"
+

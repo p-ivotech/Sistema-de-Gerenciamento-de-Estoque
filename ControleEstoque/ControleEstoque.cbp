@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="ControleEstoque" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/ControleEstoque" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+					<Add directory="../New folder/libxlsxwriter-1.2.2/include" />
+					<Add directory="../New folder/xlsxio-0.2.35-binary-win64/include" />
+				</Compiler>
+				<Linker>
+					<Add library="../New folder/xlsxio-0.2.35-binary-win64/lib/libxlsxio_read.a" />
+					<Add library="../New folder/xlsxio-0.2.35-binary-win64/lib/libxlsxio_read.dll.a" />
+					<Add library="../New folder/xlsxio-0.2.35-binary-win64/lib/libxlsxio_readw.a" />
+					<Add library="../New folder/xlsxio-0.2.35-binary-win64/lib/libxlsxio_readw.dll.a" />
+					<Add library="../New folder/xlsxio-0.2.35-binary-win64/lib/libxlsxio_write.a" />
+					<Add library="../New folder/xlsxio-0.2.35-binary-win64/lib/libxlsxio_write.dll.a" />
+					<Add library="../New folder/libxlsxwriter-1.2.2/lib/.gitignore" />
+					<Add directory="../New folder/libxlsxwriter-1.2.2/lib" />
+					<Add directory="../New folder/xlsxio-0.2.35-binary-win64/lib" />
+				</Linker>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/ControleEstoque" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+			<Add option="-fexceptions" />
+		</Compiler>
+		<Unit filename="main.cpp" />
+		<Extensions />
+	</Project>
+</CodeBlocks_project_file>
